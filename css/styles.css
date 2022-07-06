@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 :root {
   --brand-color: #212121;
@@ -13,29 +15,47 @@ body {
   width: 1600px;
   font-size: 14px;
   letter-spacing: 3%;
+  width: 1600px;
+}
+.header-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   color: var(--checkmark-color);
+  display: inline-block;
+  margin-left: 215px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .black {
   color: #000;
+  margin-left: 0px;
+  margin-right: 93px;
 }
 .navigation a {
   text-decoration: none;
 }
 .navigation {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   text-align: center;
-  height: 80px;
+}
+.page-navigation li {
+  display: flex;
+  flex-direction: row;
+  margin-left: 453px;
+  justify-content: flex-start;
 }
 .navigation-links li {
   font-weight: 500;
   color: var(--brand-color);
   letter-spacing: 2%;
-  display: inline;
 }
 .navigation-links a:hover,
 .navigation-links a:focus {
@@ -51,7 +71,7 @@ body {
 }
 
 .main-title {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   background-color: #2f303a;
 }
@@ -61,8 +81,8 @@ body {
   line-height: 1.36;
   letter-spacing: 6%;
   text-align: center;
+  margin: 0 auto;
   width: 696px;
-  height: 120px;
   color: var(--background-color);
 }
 .main-button {
@@ -73,6 +93,7 @@ body {
   font-weight: 700;
   text-align: center;
   letter-spacing: 6%;
+  margin: 0 auto;
   cursor: pointer;
 }
 .main-button:hover,
