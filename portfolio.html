@@ -19,199 +19,259 @@
     />
     <link
       rel="stylesheet"
-      href="https://github.com/sindresorhus/modern-normalize.git"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
-    <header>
-      <div class="navigation">
-        <a href="/"
-          ><span class="logo">Web</span
-          ><span class="logo black">Studio</span></a
-        >
-        <nav class="navigation-links">
-          <ul>
-            <li><a href="index.html">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="/kontakt">Kontakt</a></li>
+    <header class="header">
+      <div class="container">
+        <div class="navigation">
+          <a href="/"
+            ><span class="logo">Web</span
+            ><span class="logo black">Studio</span></a
+          >
+          <nav class="navigation">
+            <ul class="navigation-links">
+              <li class="navigation-links-item">
+                <a class="navigation-links-link" href="index.html">Agencja</a>
+              </li>
+              <li class="navigation-links-item">
+                <a class="navigation-links-link" href="portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="navigation-links-item">
+                <a class="navigation-links-link" href="/kontakt">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+
+          <ul class="contact-links">
+            <li class="contact-links-mail">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contact-links-phone">
+              <a href="tel.:+48111111111">+48 111 111 111</a>
+            </li>
           </ul>
-        </nav>
-        <span class="contact"
-          ><a href="mailto:info@devstudio.com">info@devstudio.com</a></span
-        ><span class="contact"
-          ><a href="tel.:+48111111111">+48 111 111 111</a></span
-        >
+        </div>
       </div>
     </header>
     <main>
-      <div class="filters">
-        <ul>
-          <li>
-            <button class="button-filters" type="button">Wszystkie</button>
-          </li>
-          <li>
-            <button class="button-filters" type="button">Strony</button>
-          </li>
-          <li>
-            <button class="button-filters" type="button">Aplikacje</button>
-          </li>
-          <li>
-            <button class="button-filters" type="button">Dizajn</button>
-          </li>
-          <li>
-            <button class="button-filters" type="button">Marketing</button>
-          </li>
-        </ul>
-      </div>
-      <div class="image-portfolio">
-        <ul>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio1.jpg"
-                alt="Website of Technocrack"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">Technocrack</div>
-                <div class="image-portfolio-speciality">Strona internetowa</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio2.jpg"
-                alt="Poster of New Orlean vs Golden Star match"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">
-                  Grafika New Orlean vs Golden Star
-                </div>
-                <div class="image-portfolio-speciality">Dizajn</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio3.jpg"
-                alt="Logo of Seafood Restaurant"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">Restauracja Seafood</div>
-                <div class="image-portfolio-speciality">Aplikacja</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio4.jpg"
-                alt="Earphones"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">Projekt Prime</div>
-                <div class="image-portfolio-speciality">Marketing</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio5.jpg"
-                alt="A pair of boxes"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">Projekt Boxes</div>
-                <div class="image-portfolio-speciality">Aplikacja</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio6.jpg"
-                alt="Computer monitor with website Inspiration has no Borders"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">
-                  Inspiration has no Borders
-                </div>
-                <div class="image-portfolio-speciality">Strona internetowa</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio7.jpg"
-                alt="Pages of Limited Edition Magazine"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">
-                  Magazyn Limited Edition
-                </div>
-                <div class="image-portfolio-speciality">Dizajn</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio8.jpg"
-                alt="Clothes label"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">Projekt LAB</div>
-                <div class="image-portfolio-speciality">Marketing</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/portfolio9.jpg"
-                alt="Notebook with Growing Business aplication on it"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <div class="image-portfolio-company">Growing Business</div>
-                <div class="image-portfolio-speciality">Aplikacja</div>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="subsection portfolio">
+          <div class="filters">
+            <ul class="list-of-buttons">
+              <li class="buttons">
+                <button class="button-filters" type="button">Wszystkie</button>
+              </li>
+              <li class="buttons">
+                <button class="button-filters" type="button">Strony</button>
+              </li>
+              <li class="buttons">
+                <button class="button-filters" type="button">Aplikacje</button>
+              </li>
+              <li class="buttons">
+                <button class="button-filters" type="button">Dizajn</button>
+              </li>
+              <li class="buttons">
+                <button class="button-filters" type="button">Marketing</button>
+              </li>
+            </ul>
+          </div>
+          <div class="image-portfolio">
+            <ul class="image-portfolio-card">
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio1.jpg"
+                    alt="Website of Technocrack"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">Technocrack</li>
+                      <li class="image-portfolio-speciality">
+                        Strona internetowa
+                      </li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio2.jpg"
+                    alt="Poster of New Orlean vs Golden Star match"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">
+                        Grafika New Orlean vs Golden Star
+                      </li>
+                      <li class="image-portfolio-speciality">Dizajn</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio3.jpg"
+                    alt="Logo of Seafood Restaurant"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">
+                        Restauracja Seafood
+                      </li>
+                      <li class="image-portfolio-speciality">Aplikacja</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio4.jpg"
+                    alt="Earphones"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">Projekt Prime</li>
+                      <li class="image-portfolio-speciality">Marketing</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio5.jpg"
+                    alt="A pair of boxes"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">Projekt Boxes</li>
+                      <li class="image-portfolio-speciality">Aplikacja</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio6.jpg"
+                    alt="Computer monitor with website Inspiration has no Borders"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">
+                        Inspiration has no Borders
+                      </li>
+                      <li class="image-portfolio-speciality">
+                        Strona internetowa
+                      </li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio7.jpg"
+                    alt="Pages of Limited Edition Magazine"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">
+                        Magazyn Limited Edition
+                      </li>
+                      <li class="image-portfolio-speciality">Dizajn</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio8.jpg"
+                    alt="Clothes label"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">Projekt LAB</li>
+                      <li class="image-portfolio-speciality">Marketing</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="image-portfolio-item">
+                <figure>
+                  <img
+                    src="images/portfolio9.jpg"
+                    alt="Notebook with Growing Business aplication on it"
+                    width="370"
+                    height="294"
+                  />
+                  <figcaption>
+                    <ul class="clients-data">
+                      <li class="image-portfolio-company">Growing Business</li>
+                      <li class="image-portfolio-speciality">Aplikacja</li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
-    <footer class="contact-data">
-      <a href="/"
-        ><span class="logo">Web</span><span class="logo white">Studio</span></a
-      >
-      <address class="work-place">m. Warszawa, Aleje Jerozolimskie 21</address>
-      <a class="contact-links" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <br />
-      <a class="contact-links" href="tel.:+48111111111">+48 111 111 111</a>
+    <footer>
+      <div class="container">
+        <div class="blue background">
+          <ul class="contact-data">
+            <li>
+              <a href="/"
+                ><span class="address logo">Web</span
+                ><span class="address logo white">Studio</span></a
+              >
+            </li>
+            <li>
+              <address class="work-place">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </address>
+            </li>
+            <li>
+              <a class="contact-links" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-links" href="tel.:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

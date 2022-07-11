@@ -19,176 +19,214 @@
     />
     <link
       rel="stylesheet"
-      href="https://github.com/sindresorhus/modern-normalize.git"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
-    <header class="header-container">
-      <div class="navigation">
-        <a href="/"
-          ><span class="logo">Web</span
-          ><span class="logo black">Studio</span></a
-        >
-        <nav class="navigation-links">
-          <ul class="page-navigation">
-            <li><a href="index.html">Agencja</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="/kontakt">Kontakt</a></li>
-          </ul>
-        </nav>
+    <header class="header">
+      <div class="container">
+        <div class="navigation">
+          <a href="/"
+            ><span class="logo">Web</span
+            ><span class="logo black">Studio</span></a
+          >
+          <nav class="navigation">
+            <ul class="navigation-links">
+              <li class="navigation-links-item">
+                <a class="navigation-links-link" href="index.html">Agencja</a>
+              </li>
+              <li class="navigation-links-item">
+                <a class="navigation-links-link" href="portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="navigation-links-item">
+                <a class="navigation-links-link" href="/kontakt">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
 
-        <span class="contact">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </span>
-        <span class="contact">
-          <a href="tel.:+48111111111">+48 111 111 111</a>
-        </span>
-      </div>
-      <div class="main-title">
-        <h1 class="main-title-text">
-          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-        </h1>
-        <button type="button" class="main-button">Zamów usługę</button>
+          <ul class="contact-links">
+            <li class="contact-links-mail">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contact-links-phone">
+              <a href="tel.:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-title blue background">
+          <h1 class="main-title-text">
+            Efektywne rozwiązania dla waszego biznesu
+          </h1>
+          <button type="button" class="main-button">Zamów usługę</button>
+        </div>
       </div>
     </header>
     <main>
-      <section class="description">
-        <ul>
-          <li>
-            <h3 class="description-title">LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3 class="description-title">LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3 class="description-title">LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h3 class="description-title">LOREM IPSUM</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="image-description">
-        <h2 class="section-title">Czym się zajmujemy?</h2>
-        <ul>
-          <li>
-            <img
-              src="images/programmmer_opt.jpg"
-              alt="Man is writing computer code"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/ui_design_opt.jpg"
-              alt="Woman comparing application design with mobile and desktop"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/creative_webdesign_opt.jpg"
-              alt="Tablet with polygonal color palette"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
-      <section class="team-description">
-        <h2 class="section-title">Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
+      <div class="container">
+        <section class="subsection">
+          <ul class="main-description">
+            <li class="description-items">
+              <h3 class="description-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="description-items">
+              <h3 class="description-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="description-items">
+              <h3 class="description-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="description-items">
+              <h3 class="description-title">LOREM IPSUM</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="subsection">
+          <h2 class="section-title">Czym się zajmujemy?</h2>
+          <ul class="description-images-list">
+            <li class="description-images">
               <img
-                src="images/product_designer_opt.jpg"
-                alt="Photo our product designer"
-                width="270"
-                height="260"
+                src="images/programmmer_opt.jpg"
+                alt="Man is writing computer code"
+                width="370"
+                height="294"
               />
-              <figcaption>
-                <div class="team-description-name">John Doe</div>
-                <div class="team-description-speciality">Product Manager</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+            </li>
+            <li class="description-images">
               <img
-                src="images/frontend_developer_opt.jpg"
-                alt="Photo our frontend developer"
-                width="270"
-                height="260"
+                src="images/ui_design_opt.jpg"
+                alt="Woman comparing application design with mobile and desktop"
+                width="370"
+                height="294"
               />
-              <figcaption>
-                <div class="team-description-name">Jane Doe</div>
-                <div class="team-description-speciality">
-                  Frontend Developer
-                </div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+            </li>
+            <li class="description-images">
               <img
-                src="images/marketing_opt.jpg"
-                alt="Photo our marketing specialist"
-                width="270"
-                height="260"
+                src="images/creative_webdesign_opt.jpg"
+                alt="Tablet with polygonal color palette"
+                width="370"
+                height="294"
               />
-              <figcaption>
-                <div class="team-description-name">John Doe</div>
-                <div class="team-description-speciality">Marketing</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/ui_designer_opt.jpg"
-                alt="Photo our UI designer"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <div class="team-description-name">John Doe</div>
-                <div class="team-description-speciality">UI Designer</div>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
+            </li>
+          </ul>
+        </section>
+        <section class="subsection">
+          <div class="gray background">
+            <div class="subsection">
+              <h2 class="section-title">Nasz zespół</h2>
+              <ul class="team description-images-list">
+                <li class="team-image">
+                  <figure>
+                    <img
+                      src="images/product_designer_opt.jpg"
+                      alt="Photo our product designer"
+                      width="270"
+                      height="260"
+                    />
+                    <figcaption>
+                      <div class="team-description-name">John Doe</div>
+                      <div class="team-description-speciality">
+                        Product Manager
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="team-image">
+                  <figure>
+                    <img
+                      src="images/frontend_developer_opt.jpg"
+                      alt="Photo our frontend developer"
+                      width="270"
+                      height="260"
+                    />
+                    <figcaption>
+                      <div class="team-description-name">Jane Doe</div>
+                      <div class="team-description-speciality">
+                        Frontend Developer
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="team-image">
+                  <figure>
+                    <img
+                      src="images/marketing_opt.jpg"
+                      alt="Photo our marketing specialist"
+                      width="270"
+                      height="260"
+                    />
+                    <figcaption>
+                      <div class="team-description-name">John Doe</div>
+                      <div class="team-description-speciality">Marketing</div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="team-image">
+                  <figure>
+                    <img
+                      src="images/ui_designer_opt.jpg"
+                      alt="Photo our UI designer"
+                      width="270"
+                      height="260"
+                    />
+                    <figcaption>
+                      <div class="team-description-name">John Doe</div>
+                      <div class="team-description-speciality">UI Designer</div>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
-    <footer class="contact-data">
-      <a href="/"
-        ><span class="logo">Web</span><span class="logo white">Studio</span></a
-      >
-      <address class="work-place">m. Warszawa, Aleje Jerozolimskie 21</address>
-      <a class="contact-links" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <br />
-      <a class="contact-links" href="tel.:+48111111111">+48 111 111 111</a>
+    <footer>
+      <div class="container">
+        <div class="blue background">
+          <ul class="contact-data">
+            <li>
+              <a href="/"
+                ><span class="address logo">Web</span
+                ><span class="address logo white">Studio</span></a
+              >
+            </li>
+            <li>
+              <address class="work-place">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </address>
+            </li>
+            <li>
+              <a class="contact-links" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-links" href="tel.:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
