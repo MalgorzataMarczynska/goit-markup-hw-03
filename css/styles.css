@@ -29,12 +29,8 @@ img {
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--brand-color);
-  width: 1600px;
   font-size: 14px;
   letter-spacing: 0.03em;
-}
-.header {
-  border: 1px solid #ececec;
 }
 .container {
   width: 1200px;
@@ -100,9 +96,10 @@ body {
   align-items: center;
 }
 .background {
-  flex-basis: 1600px;
+  min-width: 1600px;
   margin: 0 auto;
 }
+
 .blue {
   background-color: #2f303a;
 }
@@ -133,7 +130,7 @@ body {
   box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.container .subsection {
+.subsection {
   padding-top: 94px;
 }
 .description-title {
