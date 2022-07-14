@@ -129,8 +129,8 @@ body {
   box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-.subsection {
-  padding-top: 94px;
+.section {
+  padding: 94px 0px;
 }
 .description-title {
   font-weight: 700px;
@@ -168,7 +168,6 @@ body {
 }
 .gray {
   background-color: #f5f4fa;
-  padding-bottom: 94px;
 }
 .team {
   flex-basis: calc((1170px-90px) / 4);
@@ -222,9 +221,7 @@ body {
 .contact-links:focus {
   color: var(--checkmark-color);
 }
-.portfolio {
-  padding-bottom: 94px;
-}
+
 .list-of-buttons {
   display: flex;
   flex-direction: row;
