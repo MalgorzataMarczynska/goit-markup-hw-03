@@ -132,6 +132,9 @@ body {
 .section {
   padding: 94px 0px;
 }
+.one {
+  padding-bottom: 0px;
+}
 .description-title {
   font-weight: 700px;
   margin-bottom: 10px;
